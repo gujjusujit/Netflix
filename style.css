@@ -1,0 +1,260 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    font-family: Netfont;
+    background: black;
+}
+
+*::selection{
+background-color:blue;
+}
+
+ #page1
+{
+    height:70vh;
+    width: 100%;
+    background: url(netf.jpg);
+}
+
+#cont{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to top,rgba(0,0,0,30)0,rgba(0,0,0,0)35%,rgba(0,0,0,30)100%);
+}
+#nav{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#nav img{
+    height: 17vh;
+    padding-left: 20vw;
+}
+#cont  #opt{
+    padding: 0.3vw 0.6vw;
+    font-size: 17px;
+    font-weight:500;
+    color: #fff;
+    border-radius: 5px;
+    background: transparent;
+}
+#btn{
+    color: #fff;
+    background: red;
+    padding: 0.5vw;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-left: 1vw;
+}
+
+
+#text h1{
+    color: #fff;
+    padding-top: 7vw;
+    padding-left:  22vw;
+    font-size: 2.5vw;
+    letter-spacing: -1px;
+}
+
+#text h4{
+    color: #fff;
+    padding-left: 38vw;
+    font-size: 1.2vw;
+    margin-top: 1vw;
+}
+#text span{
+
+    color: #fff;
+    padding-left: 28vw;
+    font-size: 1.2vw;
+}
+
+
+#email input{
+    width: 376px;
+    height: 100%;
+    padding: 13px 16px 8px;
+    background: transparent;
+    border: 0.5px solid white;
+    border-radius: 4px;
+    backdrop-filter: blur(3px);
+    color: white;
+    font-size: 1vw;
+    margin-top: 1.5vw;
+    margin-left: 32vw;
+}
+#email ::placeholder{
+    color: lightgray;
+}
+#email button{
+    width: 200px;
+    height: 100%;
+    padding: 17px 24px;
+    font-size: 1vw;
+    text-align: center;
+    margin: 0px 0px 0px 8px;
+    background: #E50914;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+    #page2{
+        height: 50vh;
+        width: 100%;
+        display: flex;
+        align-items: right;
+        justify-content: center;
+        margin-bottom: 3vw;
+    }
+
+
+#content1{
+    margin-left: 7vw;
+    margin-top: 8vw;
+    color: #fff;
+    font-size:1.3vw;
+}
+
+#page3{
+    margin-top: 3vw;
+    margin-left: 20vw;
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    align-items: right;
+    justify-content: left;
+    margin-bottom: 3vw;
+}
+#page3 img{
+    height: 88%;
+}
+#content2{
+    margin-right: 7vw;
+    margin-top: 8vw;
+    color: #fff;
+    font-size:1.3vw;
+}
+
+#page4{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    align-items: right;
+    justify-content: center;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+}
+#content3{
+    margin-left: 7vw;
+    margin-top: 8vw;
+    color: #fff;
+    font-size:1.3vw;
+}
+
+
+#page5{
+    margin-top: 3vw;
+    margin-left: 20vw;
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    align-items: right;
+    justify-content: left;
+    margin-bottom: 3vw;
+}
+#page img{
+    height: 88%;
+}
+#content4{
+    margin-right: 7vw;
+    margin-top: 8vw;
+    color: #fff;
+    font-size:1.3vw;
+}
+
+#page6{
+    height: 90vh;
+    width: 100%;
+    
+    margin-top: 3vw;
+
+}
+#content5{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-size:1.3vw;
+    letter-spacing: 0.5px;
+    flex-direction:column ;
+}
+#content5 h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#content5 span{
+    margin-top: 3vw;
+    margin-left: 18vw;
+    background-color: #2d2d2d;
+    position: relative;
+    padding-top: 1vw;
+    padding-left: 2vw;
+    height: 4vw;
+    width: 60%;
+    letter-spacing: 2px;
+}
+#content5 #btn1{
+    padding-left: 300px;
+    font-size: 1.5vw;
+    cursor: pointer;
+}
+#content5  p{
+    margin-left: 18vw;
+    background-color: #2d2d2d;
+    position: relative;
+    padding-top: 1vw;
+    padding-left: 2vw;
+    height: 13vw;
+    width: 60%;
+}
+
+ 
+
+@media(max-width:600px)
+{
+    #page1
+{
+    height:70vh;
+    width: 100%;
+   
+} 
+#nav{
+    width: 100%;
+    
+}
+#nav img{
+    height: 15vh;
+    padding-left: 5vw;
+}
+#text h1{
+    color: #fff;
+    padding-top: 14vw;
+    padding-left:  20vw;
+    font-size: 50vw;
+    letter-spacing: -1px;
+}
+
+
+
+}
